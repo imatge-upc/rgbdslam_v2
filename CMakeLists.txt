@@ -201,9 +201,9 @@ link_directories(${OpenCV_LIBRARY_DIRS})
 #############################
 # Eigen ####################
 #############################
-find_package(Eigen3 REQUIRED)
-include_directories(SYSTEM ${EIGEN_INCLUDE_DIRS})
-add_definitions(${EIGEN_DEFINITIONS})
+# find_package(Eigen3 REQUIRED)
+# include_directories(SYSTEM ${EIGEN_INCLUDE_DIRS})
+# add_definitions(${EIGEN_DEFINITIONS})
 
 ##############################################################################
 # Some QT Magic (MOC Creation)
